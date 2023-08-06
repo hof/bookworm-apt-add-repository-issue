@@ -32,3 +32,18 @@ A low risk fix is to have add-apt-repository create the `/etc/apt/sources.list` 
 
      def parse_args(self, args):
 ```
+
+## Examples
+
+[![bullseye](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/bullseye.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/bullseye.yaml)
+
+[![issue](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/issue.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/issue.yaml)
+
+[![issue-minimal](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/issue-minimal.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/issue-minimal.yaml)
+
+[![workaround-1](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/workaround-1.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/workaround-1.yaml)
+
+[![workaround-2](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/workaround-2.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/workaround-2.yaml)
+
+[![fix](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/fix.yaml/badge.svg)](https://github.com/hof/bookworm-apt-add-repository-issue/actions/workflows/fix.yaml)
+
