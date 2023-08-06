@@ -16,7 +16,7 @@ See `workaround-1` and `workaround-2`.
 
 ## Fix
 
-A low risk fix is to have add-apt-repository create the `/etc/apt/sources.list` if there are no sources. The `save()` function already does this.
+A low risk fix is to have add-apt-repository create the `/etc/apt/sources.list` if there are no (`.list`) sources. The `save()` function already does this.
 
 ```
 --- apt-add-repository-0.99.30-4
