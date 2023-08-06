@@ -1,0 +1,14 @@
+name: workaround-1
+
+on:
+    workflow_dispatch:
+
+jobs:
+    docker-build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: build docker image
+              run: docker build workaround-1 --file workaround-1/Dockerfile --progress plain

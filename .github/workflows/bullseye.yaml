@@ -1,0 +1,14 @@
+name: bullseye
+
+on:
+    workflow_dispatch:
+
+jobs:
+    docker-build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: build docker image
+              run: docker build bullseye --file bullseye/Dockerfile --progress plain
